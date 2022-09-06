@@ -1,11 +1,15 @@
 .Header {
-  background-color: yellowgreen;
+  background-color: #393232;
   color: beige;
   height: 10vh;
-  display: flex;
+  padding: 50px auto;
+  /* display: flex; */
+  text-align: center;
 }
-.Header h1 {
+.Header h2 {
+  display: inline-block;
+  margin: 15px auto;
   /* margin-right: auto; */
   /* margin-left: 2vw; */
-  margin: auto auto auto 2vw;
+  /* margin: 2vh auto auto 2vw; */
 }

@@ -1,0 +1,13 @@
+.Chartarea {
+  width: 68vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: start;
+  padding: 15px;
+  border-radius: 25px;
+  background-image: linear-gradient(to bottom right, #c9ffbf, #ffafbd);
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.384);
+}

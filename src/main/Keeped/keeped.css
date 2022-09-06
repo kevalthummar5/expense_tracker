@@ -1,9 +1,15 @@
 .Keeped {
   display: flex;
   /* flex-direction: row; */
-  justify-content: flex-start;
+  justify-content: center;
   color: black;
   flex-wrap: wrap;
-  width: 100%;
-  
+  padding: 20px 10px;
+  margin: 0px auto;
+  width: 75vw;
+
+  border-radius: 20px;
+}
+.Keeped h1 {
+  margin-top: 20px;
 }

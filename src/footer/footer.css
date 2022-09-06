@@ -1,5 +1,9 @@
 .ftr {
-  margin-left: 70vw;
+  display: inline-block;
+  padding-right: 10px;
+  width: 100vw;
+  text-align: end;
   margin-top: 10px;
+  margin-bottom: 10px;
   color: rgba(75, 82, 95, 0.797);
 }

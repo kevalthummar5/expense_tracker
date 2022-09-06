@@ -1,0 +1,24 @@
+.Filteryear {
+  width: 60vw;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 30px;
+  font-weight: 500;
+  color: black;
+  background-image: linear-gradient(to bottom right, #dad299, #b0dab9);
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.384);
+  margin: 0px auto 15px auto;
+  border-radius: 20px;
+}
+.yearspan {
+  margin: 10px;
+}
+.yearselect {
+  margin-left: auto;
+  align-self: flex-end;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.384);
+}

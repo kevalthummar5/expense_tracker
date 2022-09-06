@@ -1,47 +1,6 @@
-.Form1 {
-  margin: 3vh 1.5vw;
-  max-width: 600px;
-  /* border: 2px solid black; */
-}
 .Editor {
-  /* padding-left: 27vw; */
-  margin: 5vh auto;
-  /* border: 2px solid black; */
-}
-.Text {
-  display: block;
-  margin: 3px;
-  min-width: 350px;
-  padding: 0.3rem;
-  width: 100%;
-
-  border-radius: 10px;
-  border: 2px solid rgba(164, 175, 4, 0.236);
-}
-.area {
-  min-height: 10vh;
-}
-
-.Submit {
-  float: right;
-  /* margin-left: 30px; */
-  font-size: 17px;
-  padding: 12px;
-  border-radius: 50%;
-  background-color: rgb(235, 71, 71);
-  color: rgb(255, 255, 255);
-  background-color: rgb(84, 214, 82);
-  box-shadow: 0 0 7px rgba(255, 255, 255, 0.853) inset;
-  z-index: 1;
-  border: 2px solid rgba(255, 255, 255, 0.574);
-  display: block;
-  position: relative;
-  margin-top: 15px;
-}
-.Submit:hover {
-  background-color: rgb(5, 166, 2);
-  /* padding: 14px; */
-  /* font-size: 20px; */
-  cursor: pointer;
-  border: 2px solid rgba(255, 255, 255, 0.553);
+  width: 70vw;
+  margin: 20px auto 0px auto;
+  /* text-align: center; */
+  transition: all 1s;
 }

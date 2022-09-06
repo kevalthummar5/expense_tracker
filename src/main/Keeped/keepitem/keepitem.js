@@ -1,32 +1,19 @@
 import Card from "../../../ui/card";
 import { useState } from "react";
 import "./keepitem.css";
+import Dateitem from "../../../ui/Dateitem";
 
 const Keepitem = (props) => {
-  const [isdelete, setisdelete] = useState(false);
-  const deletehandler = () => {
-    setisdelete(true);
-  };
-
-  {
-    if (!isdelete) {
-      return (
-        <Card>
-          <div className="Keepitem">
-            <h4>{props.date}</h4>
-            <h2>{props.title}</h2>
-
-            <p>{props.desci}</p>
-            <button className="btn" onClick={deletehandler}>
-              Delete
-            </button>
-          </div>
-        </Card>
-      );
-    } else {
-      return null;
-    }
-  }
+  // console.log(props.amount);
+  return (
+    <Card>
+      <div className="Keepitem">
+        <Dateitem dateary={props.date}></Dateitem>
+        <h2 className="Keepitemtitle">{props.title}</h2>
+        <p className="Keepitemamt">₹ {props.amount}</p>
+      </div>
+    </Card>
+  );
 };
 
 export default Keepitem;

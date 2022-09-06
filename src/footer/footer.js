@@ -1,6 +1,10 @@
 import "./footer.css";
 
 const Footer = () => {
-  return <h4 className="ftr">devloped by@kt devlopment</h4>;
+  return (
+    <div className="ftr">
+      <h4>developed by@kt devlopment</h4>
+    </div>
+  );
 };
 export default Footer;
